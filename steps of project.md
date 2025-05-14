@@ -194,8 +194,6 @@ Several well-known methodologies exist for building a Data Warehouse. In this pr
   - **Example**:  
     `customer_key` → Surrogate key in the `dim_customers` table.
   
-  ---
-  
   #### Technical Columns
   - All technical columns must start with the prefix `dwh_`, followed by a descriptive name indicating the column's purpose.
   
