@@ -8,16 +8,12 @@ Develop a modern data warehouse to centralize data from ERP and CRM systems, sup
 #### Specifications
 * Data Sources:
 Import data from two source systems (ERP and CRM), provided as CSV files.
-
 * Data Quality:
 Cleanse and resolve data quality issues before performing analysis.
-
 * Integration:
 Merge both sources into a single, user-friendly data model optimized for analytical queries.
-
 * Scope:
 Focus on the most recent dataset (historical data is not required).
-
 * Documentation:
 Provide comprehensive documentation to support both business users and analytics teams.
 
