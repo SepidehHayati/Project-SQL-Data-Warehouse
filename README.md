@@ -33,6 +33,6 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 - 🚧 This project is currently **in progress**, and the repository is being updated step by step.  
 - 🗂️ Project planning and progress tracking are available on [Notion](https://www.notion.so/Data-Warehouse-Project-1f18f6be5865804f801ed6acfc875abb?pvs=4).  
-- 📌 Check the [steps of project](steps of project) file in the repository to get more information about the development phases and tasks.
+- 📌 Check the **steps of the project** file in the repository to get more information about the development phases and tasks.
 
 
