@@ -28,3 +28,14 @@ Develop SQL-based analytics to deliver actionable insights into:
 * Customer Behavior
 * Product Performance
 * Sales Trends
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project.
+
+## Note
+
+* This project is currently in progress and the repository is being updated step by step.  
+* Project planning and progress tracking are available on [Notion](https://www.notion.so/Data-Warehouse-Project-1f18f6be5865804f801ed6acfc875abb?pvs=4).
+* check the 'steps of the project' file to get more information about the steps.
+
