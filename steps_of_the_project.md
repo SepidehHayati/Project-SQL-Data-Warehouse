@@ -210,6 +210,16 @@ Several well-known methodologies exist for building a Data Warehouse. In this pr
     - <layer>: represents the layer being loaded, such as `bronze`, `silver`, or `gold`
     - Example: `load_bronze`; stored procedure for loading data into the Bronze layer
     
+  ## Part 10: Bronze Layer: Create Database and Schema
+  ### Bronze Layer: Analysing source system
+    1. Analysing: Interviewing source system experts.
+    2. Coding: Data Ingestion
+    3. Validating: Data completeness and schema check.
+    4. Docs and version: Data documenting and versioning in Git
+    
+  
+
+  
 
 
 
