@@ -242,8 +242,11 @@ Gathering these details ensures the ingestion process aligns with business needs
   - Data scope and historical need
   - What is the expected size of the extracts? (MB, GB, TB, ..)
   - Are there any data volume limitations?
+  - How to avoid impacting the source system's performance?
+  - Authentication and authorization (tokens, SSH Keys, VPN, IP Whitelisting, ... )
 
 
+### 2. **Coding**: Performing data ingestion using appropriate tools.
 
 
 
