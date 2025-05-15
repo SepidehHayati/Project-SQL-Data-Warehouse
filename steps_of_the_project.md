@@ -221,7 +221,7 @@ Several well-known methodologies exist for building a Data Warehouse. In this pr
   3. **Validating**: Ensuring data completeness and schema integrity.
   4. **Docs and Versioning**: Documenting the structure and storing versioned code/data in Git.
 
-### 1. Analysing: Interviewing Source System Experts
+### 10-1. Analysing: Interviewing Source System Experts
 
 In this phase, it's essential to understand the context and structure of the source system. Key aspects include:
 
@@ -246,7 +246,8 @@ Gathering these details ensures the ingestion process aligns with business needs
   - Authentication and authorization (tokens, SSH Keys, VPN, IP Whitelisting, ... )
 
 
-### 2. **Coding**: Performing data ingestion using appropriate tools.
+### 10-2. **Coding**: Performing data ingestion using appropriate tools. (Create DDL For Tables)
+
 
 
 
