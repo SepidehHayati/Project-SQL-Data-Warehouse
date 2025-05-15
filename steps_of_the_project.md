@@ -210,16 +210,41 @@ Several well-known methodologies exist for building a Data Warehouse. In this pr
     - <layer>: represents the layer being loaded, such as `bronze`, `silver`, or `gold`
     - Example: `load_bronze`; stored procedure for loading data into the Bronze layer
     
-  ## Part 10: Bronze Layer: Create Database and Schema
-  ### Bronze Layer: Analysing source system
-    1. Analysing: Interviewing source system experts.
-    2. Coding: Data Ingestion
-    3. Validating: Data completeness and schema check.
-    4. Docs and version: Data documenting and versioning in Git
-    
-  
+  ## Part 10: Create Database and Schema (Bronze Layer)
+  ### Build Bronze Layer
+  The Bronze layer is the **raw ingestion layer** where data is loaded from source systems with minimal transformations. This layer helps ensure traceability and auditability of the raw data.
 
-  
+  Steps to Build:
+
+  1. **Analysing**: Interviewing source system experts.
+  2. **Coding**: Performing data ingestion using appropriate tools.
+  3. **Validating**: Ensuring data completeness and schema integrity.
+  4. **Docs and Versioning**: Documenting the structure and storing versioned code/data in Git.
+
+### 1. Analysing: Interviewing Source System Experts
+
+In this phase, it's essential to understand the context and structure of the source system. Key aspects include:
+
+- **Business Context & Ownership**
+  - Who owns the data?
+  - What business process does the data support? (Customer transaction, sale, ...)
+  - Is there existing system and data documentation?
+  - Data model and data catalog
+
+Gathering these details ensures the ingestion process aligns with business needs and system architecture.
+
+- **Architecture and technology stack**
+  - How is data stored? (SQL Server, Oracle, AWS, Azure, ...)
+  - What are the integration capabilities? (APIs, Kafka, File Extract, Direct DB, ...)
+ 
+- **Extract and Load**
+  - Incremental vs. full Load? 
+  - Data scope and historical need
+  - What is the expected size of the extracts? (MB, GB, TB, ..)
+  - Are there any data volume limitations?
+
+
+
 
 
 
