@@ -247,6 +247,9 @@ Gathering these details ensures the ingestion process aligns with business needs
 
 
 ### 10-2. **Coding**: Performing data ingestion using appropriate tools. (Create DDL For Tables)
+  - Create empty tables, considering the rules for naming the tables. (6 Tables)
+  - Develop SQL Load Scripts
+      * Bulk insert: The method that I used to load data from the source to the data warehouse is Bulk insert. (a method of loading a massive amount of data very quickly from files like CSV or maybe a text file directly into a database instead of loading by `insert` row by row)
 
 
 
