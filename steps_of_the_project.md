@@ -247,9 +247,14 @@ Gathering these details ensures the ingestion process aligns with business needs
 
 
 ### 10-2. **Coding**: Performing data ingestion using appropriate tools. (Create DDL For Tables)
-  - Create empty tables, considering the rules for naming the tables. (6 Tables)
-  - Develop SQL Load Scripts
-      * Bulk insert: The method that I used to load data from the source to the data warehouse is Bulk insert. (a method of loading a massive amount of data very quickly from files like CSV or maybe a text file directly into a database instead of loading by `insert` row by row)
+  - TRUNCATE TABLE: make the table empty.
+  - BULK INSERT: A method of loading a massive amount of data very quickly from files like CSV or maybe a text file directly into a database instead of loading by `insert` row by row.
+  - Defining a divider between the information about the table as the result.
+  - creating PROCEDURE
+  - Defining the ERROR message
+  - Calculating the duration of loading for each table
+  - Calculating the duration of loading the bronze layer (whole batch)
+  - Documentation with draw.io
 
 
 
