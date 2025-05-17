@@ -256,7 +256,13 @@ Gathering these details ensures the ingestion process aligns with business needs
   - Calculating the duration of loading the bronze layer (whole batch)
   - Documentation with draw.io
 
+## Part 11: Building Silver Layer
+  Steps to Build:
 
+  1. **Analysing**: Explore and understand the data.
+  2. **Coding**: Data cleaning (check the quality of the bronze layer, write data transformation, insert into silver layer).
+  3. **Validating**: Data correctness check.
+  4. **Docs and Versioning**: Data documenting and versioning in Git.
 
 
 
