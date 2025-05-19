@@ -265,8 +265,8 @@ Gathering these details ensures the ingestion process aligns with business needs
   4. **Docs and Versioning**: Data documenting and versioning in Git.
 
 ### 11-1. **Analysing**: Analysing and drawing a flow chart
-### 11-2. **DDL**: Create Table as the same as the bronze layer
-### 11-3.
+### 11-2. **DDL**: Create Table as the same as the bronze layer (with METADATA)
+### 11-3.Clean and load
 
 
 
