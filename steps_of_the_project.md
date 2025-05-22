@@ -265,8 +265,39 @@ Gathering these details ensures the ingestion process aligns with business needs
   4. **Docs and Versioning**: Data documenting and versioning in Git.
 
 ### 11-1. **Analysing**: Analysing and drawing a flow chart
-### 11-2. **DDL**: Create Table as the same as the bronze layer (with METADATA)
-### 11-3.Clean and load
+### 11-2. **DDL**: Create Table Same as Bronze Layer (with METADATA)
+
+In this step, tables are created to match the structure of the Bronze layer but with **additional metadata columns**.
+
+#### What are Metadata Columns?
+
+Metadata columns are **not part of the original source data**. Instead, they are added by data engineers to enrich each record with extra context. These columns help track data lineage, record processing info, and support auditing.
+
+#### Common Metadata Columns:
+
+| Column Name     | Description                                           |
+|------------------|-------------------------------------------------------|
+| `create_date`    | Timestamp when the record was first created/loaded   |
+| `update_date`    | Timestamp of the last update                         |
+| `source_system`  | Name of the source system where data originated      |
+| `file_location`  | File path or URI from where the data was ingested    |
+
+These columns are typically included in every table in the staging and silver layers.
+
+### 11-3. Clean and Load
+
+After the DDL step:
+
+- **Cleaning**:
+  - Handle nulls, duplicates, and invalid formats.
+  - Apply type casting and enforce data quality rules.
+  - Rename or standardize columns if needed (in Silver layer, not Bronze).
+
+- **Loading**:
+  - Insert cleaned and enriched data into the **Silver layer** tables.
+  - Maintain data integrity and consistency across loads.
+
+This phase ensures the raw ingested data is reliable, queryable, and ready for downstream consumption (e.g., analytics, dashboards, or machine learning).
 
 
 
