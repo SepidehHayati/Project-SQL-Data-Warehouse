@@ -282,9 +282,10 @@ Metadata columns are **not part of the original source data**. Instead, they are
 | `source_system`  | Name of the source system where data originated      |
 | `file_location`  | File path or URI from where the data was ingested    |
 
-These columns are typically included in every table in the staging and silver layers.
+These columns are typically included in every staging table and silver layers table.
 
 ### 11-3. Clean and Load
+Before we start writing any data transformation and cleansing, we first have to detect quality issues in the bronze layer. Without knowing the issues, we cannot find solutions. After that, we start with the transformation part. So first, we go through all the tables in the bronze layer and then insert them into the silver layer.
 
 After the DDL step:
 
